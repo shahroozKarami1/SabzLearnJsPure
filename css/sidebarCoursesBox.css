@@ -1,0 +1,47 @@
+/* start for relate section  styles */
+.courses-info {
+    box-shadow: var(--primary-shadow);
+    border-radius: 1rem;
+    position: sticky;
+    top: 2rem;
+    background-color: #28293D;
+    /* important point  =  :)  */
+
+}
+
+.course-info {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.course-info__related-title{
+        padding: 3rem  0  0  0;
+    color: #cbd4d8;
+    font-size: 1.8rem;
+    font-weight: bolder;
+
+}
+
+.course-info__related-item{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+margin: 2rem  0rem;
+}
+
+.course-info__related-poster{
+    display: block;
+    width: 20%;
+    height: auto;
+    border-radius: 0.5rem;
+    
+
+}
+.course-info__related-link{
+    font-size: 1.3rem;
+    color: #b1bbbf;
+    margin-right: 1rem;
+
+}
+
+/* finish styles for related */

@@ -1,0 +1,248 @@
+@import url(./fonts.css);
+@import url(./helper.css);
+@import url(./variable.css);
+@import url(./default.css);
+@import url(./top-bar.css);
+@import url(./nav-bar.css);
+@import url(./broadcrumb.css);
+@import url(./sidebarCoursesBox.css);
+@import url(./pagination.css);
+@import url(./comment.css);
+@import url(./footer.css);
+
+
+/* start  form  regester styles */
+.login-regester {
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+
+}
+
+.login-regester::before {
+ content: "";
+ position: absolute;
+ top: -5rem;
+ background-color: #2bce56;
+ width: 150%;
+ height: 380px;
+ transform: rotate(-4deg);
+ z-index: -1;
+
+}
+
+.login-regester::after {
+    top: 0;
+    content: "";
+    position: absolute;
+    z-index: -99;
+    width: 150%;
+    height: 380px;
+    transform: rotate(-4deg);
+    background-color:#7b868a;
+
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    background-color: #28293D;
+    flex-direction: column;
+    margin: 4rem 0;
+    padding: 2.5rem 2rem 5rem 2rem;
+    box-shadow: var(--primary-shadow);
+    justify-content: center;
+    border-radius: 5px;
+    width: 50rem;
+    border-bottom: 5px solid #2bce56;
+}
+
+.logn-title {
+    display: block;
+    margin: 1rem 0;
+    font-size: 2.2rem;
+    color: #FFFFFF;
+}
+
+.login-subtitle {
+    font-size: 1.5rem;
+    color: #7b868a;
+    display: block;
+
+}
+
+.login__new-memeber {
+    background-color: #4A4B6D;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.login__new-memeber-text {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.login__new-memeber-link {
+    background-color: #7b868a;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+
+}
+
+/* inp  section styles */
+
+.login-form {
+    margin: 1rem 0;
+    width: 100%;
+
+}
+
+.login-form__username,
+.login-form__password {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.login-form__username-input,
+.login-form__password-input {
+    margin: 1rem 0;
+    padding: 1rem 1.1rem;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+
+}
+
+.login-form__username-input::placeholder,
+.login-form__password-input::placeholder {
+    font-size: 1.5rem;
+    color: #28293D;
+}
+
+.login-form__username-icon,
+.login-form__password-icon {
+    color: #7b868a;
+    font-size: 2rem;
+    position: absolute;
+    left: 1rem;
+}
+
+
+
+.login-form__btn {
+    width: 100%;
+    margin-top: 1.2rem;
+    padding: 1rem 0;
+    background-color: #2bce56;
+    color: white;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.login-form__btn-text {
+    display: block;
+    margin: 0 auto;
+}
+
+.login-form__btn-iocn {
+    position: absolute;
+    right: 2rem;
+    font-size: 2rem;
+}
+
+/* login  setting   ...  */
+
+.login-form__config-password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.login-form__config-passwod-remmeber {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.login-form__config-passwod-checkbox {
+    margin-left: 0.5rem;
+}
+
+.login-form__config-passwod-text,
+.login-form__password-forget-link {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+
+.login-form__password-forget-link {
+    border-bottom: 1px solid #efefee;
+}
+
+/* start  login footer  styles */
+.login-footer {
+    margin-top: 3rem;
+    border-top: 1px solid #efefee;
+    padding: 2rem 1rem;
+    width: 106%;
+    color: #c7d8de;
+
+}
+
+.login-footerـtitle {
+    margin-bottom: 1.5rem;
+    display: block;
+    font-weight: bold;
+}
+
+.login-footer__list {
+    line-height: 2.5;
+    list-style-type: disc;
+    padding-right: 2rem;
+}
+
+.login-fotter-item {
+
+    font-size: 1.2rem;
+}
+
+
+
+/* style   custom sweet alert   */
+.swal2-show {
+width: 400px;
+height: 300px ;
+}
+
+.swal2-title{
+    font-size: 5rem;
+}
+
+.swal2-html-container{
+    font-size: 1.7rem  !important  ;
+}
+
+.swal2-confirm {
+    font-size: 1.5rem   !important;
+}

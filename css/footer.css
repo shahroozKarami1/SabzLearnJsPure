@@ -1,0 +1,110 @@
+/* start footer styles   */
+
+
+.footer-widgets {
+    max-height: 300px;
+    border-top: 1px solid #718092;
+    border-bottom: 1px solid #718092;
+    position: relative;
+    margin: 6rem 0;
+    z-index: 10  ;
+    
+}
+
+.footer-widgets::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 4rem;
+    width: 50rem;
+    background-color: #718092;
+    bottom: -2rem;
+    border-radius: 5rem;
+    z-index: -10 !important;
+}
+
+.footer-widgets__item {
+    padding: 3rem 3.5rem;
+}
+
+.footer-widgets__title {
+    color: var(--white-color);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    position: relative;
+    font-size: 1.8rem;
+}
+.footer-widgets__title::before{
+    content:  "";
+    position: absolute;
+    left: 0;
+    right: 0.1rem;
+    bottom: -0.9rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    transform: rotate(45deg);
+    background-color: #718092;
+    border-radius: 0.7rem;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.footer-widgets__text {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #718092;
+    line-height: 2;
+}
+
+
+
+.footer-widgets__link {
+    color: #718092;
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+
+}
+
+.footer-widgets__link:hover {
+    color: var(--primary-color);
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #718092;
+    padding: 3rem 0;
+}
+
+.footer-widgets__newsLetter{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem ;
+}
+
+.footer-widgets__newsLetter-inp{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 0.5rem  ;
+    border-bottom-right-radius: 0.5rem  ;
+        padding: 1rem;
+    font-size: 1.5rem ;
+    color: black;
+}
+.footer-widgets__newsLetter-btn {
+    border: 0;
+    background-color: #718092;
+    color: white;
+    border-top-left-radius: 0.5rem  ;
+    border-bottom-left-radius: 0.5rem  ;
+    padding: 1rem  ;
+    font-size: 1.5rem;
+
+
+}

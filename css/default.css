@@ -1,0 +1,43 @@
+/* start defalt styles */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    direction: rtl;
+    background-color: #1C1C28;
+    color: var(--white-color);
+}
+
+*,
+*::after,
+*::before {
+    outline: none;
+    box-sizing: inherit;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 400s ease;
+}
+
+a:hover {
+    color: #1e83f0;
+}
+
+i {
+    user-select: none;
+
+}
+
+
+
+
+/* finish defalt styles */
